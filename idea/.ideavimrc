@@ -110,7 +110,7 @@ nnoremap <Leader>pf :action GotoFile<CR>
 
 nnoremap <Leader>fp :action ShowFilePath<CR>
 nnoremap <Leader>fu :action FindUsages<CR>
-nnoremap <Leader>fr :action RecentFiles<CR>
+nnoremap <Leader>kk :action RecentFiles<CR>
 
 nnoremap <Leader>ic :action InspectCode<CR>
 
