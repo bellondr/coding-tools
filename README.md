@@ -43,6 +43,7 @@
 4. d|y|v + f|t + 字符  字符操作
 5. ctl + p|n 上下键
 6. ctl + (f|b)(u|d) 上线翻页翻半页键
+7. [ block 跳转 exp [ + { 跳转到 { block
 
 #### vscode 独特优点
 1. z mod模式，集中精神coding
@@ -54,3 +55,7 @@
 
 #### go开发建议
 1. 安装插件后，开启 gopls，优点是跳转反应倍速加快，基本等于goland, 缺点耗内存
+
+#### 进阶篇
+1. 使用spaceemacsk快捷键配置
+https://github.com/VSpaceCode/VSpaceCode
