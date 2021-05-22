@@ -1,19 +1,76 @@
 // Place your key bindings in this file to overwrite the defaults
+// Place your key bindings in this file to override the defaults
 [
-  {
-    "key": "F12",
-    "command": "workbench.action.togglePanel"
-  },
-  {
-    "key": "Ctrl+]",
-    "command": "editor.action.goToTypeDefinition"
-  },
-  {
-    "key": "Ctrl+T",
-    "command": "workbench.action.navigateBack"
-  },
-  {
-    "key": "Ctrl+F12",
-    "command": "workbench.action.toggleMaximizedPanel"
-  }
+    {
+        "key": "alt+cmd+i",
+        "command": "workbench.action.togglePanel",
+    },
+    {
+        "key": "Ctrl+]",
+        "command": "editor.action.goToTypeDefinition"
+    },
+    {
+        "key": "Ctrl+T",
+        "command": "workbench.action.navigateBack"
+    },
+    {
+      "key": "Ctrl+F12",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+cmd+r",
+        "command": "workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "cmd+r",
+        "command": "-workbench.action.reloadWindow",
+        "when": "isDevelopment"
+    },
+    {
+        "key": "cmd+r",
+        "command": "editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "alt+cmd+f",
+        "command": "-editor.action.startFindReplaceAction"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "workbench.action.replaceInFiles"
+    },
+    {
+        "key": "shift+cmd+h",
+        "command": "-workbench.action.replaceInFiles"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "extension.vim_end",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "end",
+        "command": "-extension.vim_end",
+        "when": "editorTextFocus && vim.active && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "alt+e",
+        "command": "cursorLineEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+e",
+        "command": "-cursorLineEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "alt+cmd+b",
+        "command": "markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
+    {
+        "key": "cmd+b",
+        "command": "-markdown.extension.editing.toggleBold",
+        "when": "editorTextFocus && !editorReadonly && editorLangId == 'markdown'"
+    },
 ]
